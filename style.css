@@ -1,0 +1,133 @@
+/*
+Theme Name: Twenty Twenty One Child
+Theme URI: https://example.com
+Description: Caylee's child theme for Twenty Twenty One.
+Author: Caylee Clay
+Author URI: https://example.com/
+Template: twentytwentyone
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+:root{
+    /* Background color */
+	--global--color-background-child: 	--global--color-white;
+
+    /* Font Family */
+	--global--font-primary-child: var(--font-headings, Questrial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+	--global--font-secondary-child: var(--font-base, Questrial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+
+	/* Navigation Font */
+	--primary-nav--font-family-child: var(--global--font-secondary-child);
+}
+
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-family: var(--global--font-primary-child);
+}
+
+.wp-block-navigation .wp-block-navigation-link .wp-block-navigation-link__label {
+	font-family: var(--primary-nav--font-family-child);
+}
+
+
+
+
+
+
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	flex: 1;
+}
+
+.article-title {
+    /* display: center; */
+    font-size: 28px;
+    text-align: center;
+    color: #88b3af;
+    margin-top: 25px;
+}
+
+.recent-articles-container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.page-break {
+    height: 3px;
+    background: black;
+}
+
+.recent-article {
+    display: flex;
+	width: 250px;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 20px;
+}
+
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.featured-photo {
+    height: 300px;
+    width: 400px;
+    border-top: 12px solid #e3b341;
+    border-bottom: 12px solid #e3b341;
+    border-left: 12px solid #d59377;
+    border-right: 12px solid #d59377;
+}
+
+.featured-article {
+    height: 200px;
+    width: 400px;
+    border: 8px solid #88b3af;
+    margin-left: -100px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.popular-articles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* border-top: 2px solid black; */
+}
+
+.popular-article {
+	width: 300px;
+    height: 200px;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px 20px 30px 20px;
+}
