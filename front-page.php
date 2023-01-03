@@ -1,17 +1,6 @@
-<?php /*
-This page is used to display the static frontpage.
-*/
+<!-- This page is used to display the static frontpage. -->
 
-// //Adding and Encuing styles for Front Page
-// add_action( 'wp_enqueue_scripts', 'front_page_design' );
-
-// function front_page_design(){
-//     if ( is_front_page() || is_home()) {
-//         wp_enqueue_style( 'home_page_style', get_stylesheet_directory_uri() . '/style.css', array('handle_of_main_style') );
-//     }
-// }
-
-  
+<?php 
 // Fetch theme header template
 get_header(); ?>
 
@@ -39,12 +28,30 @@ get_header(); ?>
         <div class="featured-article">Featured Article Title</div>
     </div>
     <div class="page-break"></div>
+
+
     <div class="article-title">Popular</div>
     <div class="popular-articles-container">
         <div class="popular-article">Popular Article One</div>
         <div class="popular-article">Popular Article Two</div>
         <div class="popular-article">Popular Article Three</div>
+        <div class="popular-article">Popular Article Four</div>
     </div>
+    <div class="page-break"></div>
+
+
+
+    <div class="article-title">Explore</div>
+    <div class="popular-articles-container">
+        <div class="sub-container">
+            <div class="popular-article">Popular Article One</div>
+            <div class="caption">Category 1</div>
+        </div> 
+        <div class="popular-article">Popular Article Two</div>
+        <div class="popular-article">Popular Article Three</div>
+        <div class="popular-article">Popular Article Four</div>
+    </div>
+    <div class="page-break"></div>
 
 
 

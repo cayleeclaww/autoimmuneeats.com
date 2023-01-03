@@ -55,12 +55,20 @@ body {
 	flex: 1;
 }
 
+/* .site-main > * {
+    margin-bottom: 0px;
+}
+
+.site-header .has-logo .has-menu {
+    padding-bottom: 0px ;
+} */
+
 .article-title {
     /* display: center; */
     font-size: 28px;
     text-align: center;
     color: #88b3af;
-    margin-top: 25px;
+    margin-top: -90px;
 }
 
 .recent-articles-container {
@@ -118,7 +126,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    /* border-top: 2px solid black; */
 }
 
 .popular-article {
@@ -130,4 +137,16 @@ body {
     text-align: center;
     padding: 10px 20px;
     margin: 10px 20px 30px 20px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.caption {
+    text-align: center;
+    justify-content: center;
 }
