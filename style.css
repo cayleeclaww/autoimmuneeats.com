@@ -121,32 +121,3 @@ body {
     background-color: white;
 }
 
-.popular-articles-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
-
-.popular-article {
-	width: 300px;
-    height: 200px;
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-    text-align: center;
-    padding: 10px 20px;
-    margin: 10px 20px 30px 20px;
-}
-
-.sub-container {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-}
-
-.caption {
-    text-align: center;
-    justify-content: center;
-}
